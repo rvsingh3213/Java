@@ -24,7 +24,7 @@ import java.io.*;
 					{	flag=1;
 						for(int j=0;j<i;j++)
 						{	if(i==0)
-							System.out.println(" rrrr");
+							//System.out.println(" rrrr");
 							if(arr[i]==arr[j])
 							{	flag=0;
 								break;
