@@ -31,7 +31,6 @@ class GFG {
 				line=bf.readLine();
 				String str[]=line.trim().split("\\s+");
 				
-				Map<Long,Integer> mp=new HashMap<>();
 				int flag=0;
 				Long tot_sum=0L;
 				int start=0,end=0;

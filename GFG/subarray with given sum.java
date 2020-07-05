@@ -41,8 +41,8 @@ class GFG {
 					
 					if(mp.containsKey((long)tot_sum-sum))
 					{	flag=1;
-						start=mp.get(tot_sum-sum)+2;
-						end=i+1;
+						start=mp.get(tot_sum-sum)+1+1; // 1 added for (index+1)
+						end=i+1; 					 // 1 added more coz after this key we start
 						break;
 					}
 					else
