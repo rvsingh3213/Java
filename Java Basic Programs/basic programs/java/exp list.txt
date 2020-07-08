@@ -1,0 +1,17 @@
+**how system represent negative numbers.
+**integer or float divided by 0 ---->which exception comes???
+**nesting of classes.
+**syntex creating object of ineer class.
+**taking input with spaces.
+
+1. factorial funtion 
+
+2. array display their sum and |_>.
+
+3. command line argument.
+4.program for constructor
+5.creation of classes and use of diffrent types of functions
+6.count no. of objects for classes using static member functions.
+7.program on interfaces.
+
+ 

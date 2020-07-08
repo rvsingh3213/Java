@@ -1,0 +1,46 @@
+/*
+generics allow only specified type of data to be stored.
+
+advantages:
+1. no need of type safety: as only single type of data can be stored.
+2. no need of type casting.
+3. do the compile tyme checking so no error occur at runtime.
+
+*/
+
+// no type casting required in generics
+
+import java.util.*;
+
+public class cube
+{
+public static void main(String args[])
+{
+ArrayList<String> list=new ArrayList<String>();
+list.add("Hello");
+String s=list.get(0);
+System.out.println(s);
+
+
+}
+
+}
+
+
+///non generic can store any type of data but there is a need of type casting
+
+import java.util.*;
+
+public class cube
+{
+public static void main(String args[])
+{
+List ls=new ArrayList();
+ls.add("hello");
+String s=(String)ls.get(0);
+System.out.println(s);
+
+
+}
+
+}

@@ -1,0 +1,41 @@
+/*map is a abstract class so can't be instantiated
+
+in map we have to pass key and value
+
+Iterator would require only 1 argument so we need to use Map.entry for Set and Iterator
+*/
+
+//here is generic using map
+
+
+
+import java.util.*;
+
+public class cube
+{
+public static void main(String args[])
+{
+Map<Integer,String> map=new HashMap<Integer,String>();
+map.put(1881,"Ravi");
+        //key  value
+map.put(1883,"Bhuvan");
+map.put(1875,"vikki");
+map.put(1850,"Shiva");
+
+
+//here we have to use Set.Entry for Set and Iterator both
+Set<Map.Entry<Integer,String>> st=map.entrySet();
+
+Iterator<Map.Entry<Integer,String>> itr=st.iterator();
+
+while(itr.hasNext())
+{
+Map.Entry e=itr.next();
+
+System.out.println(e.getKey()+" "+e.getValue());
+
+} 
+
+}
+
+}

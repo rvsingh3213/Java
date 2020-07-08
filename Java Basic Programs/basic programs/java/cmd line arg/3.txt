@@ -1,0 +1,46 @@
+class cmdl
+{
+
+public static void main(String arg[])
+{
+
+String a=arg[0];
+String b=arg[1];
+System.out.println(a+b);
+
+int c=arg[
+
+}
+
+
+
+*************
+
+class cmdl
+{
+
+public static void main(String arg[])
+{
+
+String a=arg[0];
+String b=arg[1];
+System.out.println(a+b);
+
+int c=Integer.parseInt(arg[0]);
+int d=Integer.parseInt	(arg[1]);
+System.out.println(c+d);
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+}
