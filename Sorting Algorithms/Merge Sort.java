@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class Codechef
+class Solution
 {	
 	public void sort(int arr[],int l,int r)
 	{
@@ -80,7 +80,7 @@ class Codechef
 		for(int i=0;i<N;i++)
 			arr[i]=sc.nextInt();
 		
-		Codechef obj=new Codechef();
+		Solution obj=new Solution();
 		
 		obj.sort(arr,0,N-1); // from 0 to len -1
 		
