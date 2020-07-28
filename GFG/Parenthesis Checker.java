@@ -10,8 +10,8 @@ class GFG {
     
     static void isBalanced(ArrayDeque<Character> stack,char arr[] )
     {
-        char x=arr[0];
-        char y;
+        char x,y;
+        
         boolean flag=true;
         for(int i=0;i<arr.length;i++)
         {
