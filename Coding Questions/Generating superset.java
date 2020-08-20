@@ -13,7 +13,7 @@ class Solution {
 				return;
 			}
 			//when no more element to print
-			if(i>=N)
+			if(i>=n)
 				return;
 			
 			subset[index]=arr[i];

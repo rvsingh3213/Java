@@ -3,11 +3,20 @@
 //https://leetcode.com/problems/power-of-four/
 //342. Power of Four
 
+// It has multiple solutions
 
 class Solution {
     public boolean isPowerOfFour(int num) {
         
         if(num<=0)return false;
+        
+        if(num==1)return true;
+        double res=Math.log10(num)/Math.log10(4);
+        
+        if((int)res-res==0)return true;
+        
+        return false;
+       /* if(num<=0)return false;
        
         if(num==1)return true;
         
@@ -33,7 +42,7 @@ class Solution {
         }
         return true;
         
-        
+        */
       /*  if(num<=0)return false;
         
         while(num!=1)
