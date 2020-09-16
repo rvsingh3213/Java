@@ -9,7 +9,6 @@ public class Solution {
     {
         char x=arr[0];
         char y;
-        boolean flag=true;
         for(int i=0;i<arr.length;i++)
         {
             x=arr[i];
@@ -60,13 +59,13 @@ public class Solution {
             }
         }
         int rt=0;
-        if(flag)
+   
         if(stack.isEmpty())
             return 1;
-            else
+        
+		
             return 0;
 
-        return 0;
     }
     public int isValid(String A) {
         

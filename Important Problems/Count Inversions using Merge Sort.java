@@ -38,8 +38,10 @@ class Codechef
 				arr[k++]=arr1[i++];
 			
 			else
-			{   count+=(m+1)-(l+i); //important to know
-				arr[k++]=arr2[j++];
+			{   count+=(m+1)-(l+i); //important --> notice carefully
+				//this added count is number of elements that are greater than arr[j]
+				
+				arr[k++]=arr2[j++];	
 			}
 			
 		}
