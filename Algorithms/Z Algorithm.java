@@ -1,4 +1,3 @@
-/* package codechef; // don't place package name! */
 
 
 // This is Z algorithm
@@ -36,7 +35,7 @@ class Codechef
 				{
 					Z[k]=Z[k1];
 				}
-				/*else
+				else
 				{
 					left=k;
 					while(right<l && str.charAt(right)==str.charAt(right-left))
@@ -46,7 +45,7 @@ class Codechef
 					Z[k]=right-left;
 					right--;
 					
-				}*/
+				}
 			}
 		}
 		return Z;
