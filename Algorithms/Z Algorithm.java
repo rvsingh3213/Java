@@ -26,6 +26,8 @@ class Codechef
 				}
 				Z[k]=right-left;
 				right--;
+				
+
 			}
 			else
 			{
