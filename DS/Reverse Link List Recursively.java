@@ -1,11 +1,5 @@
 
-
-
 https://www.interviewbit.com/problems/reverse-linked-list/
-
-
-
-
 public class Solution {
     public ListNode reverseList(ListNode A) {
         
