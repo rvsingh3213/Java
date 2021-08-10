@@ -4,17 +4,17 @@
 class Solution{
     public static int kthSmallest(int[] arr, int l, int r, int k) 
     { 
-       PriorityQueue<Integer> queue=new PriorityQueue<>();
-       
-       for(int i=0;i<arr.length;i++)
-       {
-           queue.add(arr[i]);
-       }
-       
-       for(int i=0;i<k-1;i++)
-       queue.remove();
-       
-       return queue.peek();
+       PriorityQueue<Integer> maxHeap=new PriorityQueue<>(Collections.reverseOrder());
+        
+        for(int i=0;i<arr.length;i++)
+        {
+            maxHeap.add(arr[i]);
+            
+            if(maxHeap.size()>k)maxHeap.poll();
+        }
+       // for(int i=0;i<k;i++)
+        //System.out.print(maxHeap.poll()+" ");
+        return maxHeap.peek();
        
     } 
 }

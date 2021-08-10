@@ -26,7 +26,8 @@ class Class_Name {
 				String str[]=line.trim().split("\\s+");
 			
 				int arr[]=new int[N];
-				Map<Integer,Integer> mp=new HashMap<>();
+				
+				
 				for(int i=0;i<N;i++)
 				{	
 					arr[i]=Integer.parseInt(str[i]);

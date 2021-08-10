@@ -3,7 +3,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Two Points to Remember
-1. Class must implement Clone() method whose Clone Object has to be Created
+1. Class must implement clone() method whose Clone Object has to be Created
 2. Class whose Clone object to be Created must implement java.lang.Cloneable Interface
    otherwise it will throw CloneNotSupportedException when we call Clone() method.
 
